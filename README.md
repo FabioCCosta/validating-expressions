@@ -13,14 +13,14 @@ e.g wrong   = String s = "{{}}}";
 
 
 // requisito 1
-// aceitar () --- dica pode ser feito com contadores , mas é melhor utilizar alguma estrutura de dados
+// aceitar () --- dica pode ser feito com contadores , mas Ã© melhor utilizar alguma estrutura de dados
 
 e.g correct = String s = "(){{}   {} {}{} {{}}}";
 e.g wrong 1 = String s = "{)}(";
 e.g wrong 2 = String s = "{(})";
 
 // requisito 2
-// respeitar ordem de precedência {[()]} -- utilizar estrutura de dados
+// respeitar ordem de precedÃªncia {[()]} -- utilizar estrutura de dados
 
 e.g correct = String s = "{[]}{}";
 e.g wrong 1 = String s = "({})";
