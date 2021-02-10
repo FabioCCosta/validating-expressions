@@ -1,6 +1,14 @@
 package code;
 import java.util.Stack;
 
+/**
+ * Classe com método que valida o posicionamento 
+ * de parênteses, colchetes e chaves em uma string.
+ * 
+ * @author Fabio Costa
+ *
+ */
+
 public class ExpressionImpl {
 	
 	public boolean isValidOperators(String s) {
@@ -48,7 +56,7 @@ public class ExpressionImpl {
 				
 		}
 		
-	// se a pilha estiver vazia ent�o todos os operadores foram fechados
+	// se a pilha estiver vazia então todos os operadores foram fechados
 		return pilha.empty();
 	}
 	
